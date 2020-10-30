@@ -4,7 +4,10 @@ This demo project showcases the usage of the android library from Survey Lens. T
 
 ## Setup
 
-To start, add the library to your [dependencies](https://github.com/surveylens/android-demo/blob/main/app/build.gradle#L37): `implementation "io.surveylens:surveylens:0.0.2"`
+To start, add the library to your [dependencies](https://github.com/surveylens/android-demo/blob/main/app/build.gradle#L37):
+```kotlin
+implementation "io.surveylens:surveylens:0.0.3"
+```
 
 After registering your account you can obtain an API key that is necessary to use the library. Create a [surveylens.properties](https://github.com/surveylens/android-demo/blob/main/app/src/main/assets/surveylens.properties) file containing your API key the assets folder of your project.
 
